@@ -14,8 +14,10 @@ function Inner() {
         marginBottom: "32px",
         borderRadius: "16px",
         marginTop: "10px",
-        outline: "2px solid white",
-        overflow: "visible",
+        outline: "5px solid white",
+        overflow: "hidden",
+        padding: "10px",
+        gap: "20px",
       }}
     >
       {/* title  */}
@@ -44,24 +46,38 @@ function Inner() {
         </h1>
       </div>
 
+      {/* outer div containing both top and bottom  */}
       <div
         style={{
           display: "flex",
           justifyContent: "center",
           flexWrap: "wrap",
-          gap: "5px",
+          gap: "10px",
           backgroundColor: "white",
+          // marginBottom: "10px",
+          overflow: "hidden",
+          height: "auto",
+
+          width: "100%",
         }}
       >
+        {/* top outer div  */}
         <div
-          style={{ width: "726px", height: "298px", backgroundColor: "blue" }}
+          style={{
+            width: "726px",
+            backgroundColor: "#f6f7f8",
+            height: "auto",
+            overflow: "hidden",
+            outline: "8px solid #f6f7f8",
+          }}
         >
           <div
             style={{
               width: "inherit",
-              //   height: "200px",
+              height: "inherit",
               display: "flex",
               justifyContent: "center",
+              outline: "30px solid #f6f7f8",
             }}
           >
             <Chart />

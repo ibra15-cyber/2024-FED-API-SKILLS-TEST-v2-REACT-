@@ -91,13 +91,13 @@ function Chart() {
   return (
     <div
       style={{
-        backgroundColor: "#F4F0FE",
+        backgroundColor: "#f6f7f8",
         // padding: "20px",
         borderRadius: "8px",
         width: "inherit",
         justifyContent: "center",
         alignItems: "center",
-        outline: "2px solid #F4F0FE ",
+        // outline: "5px solid #f6f7f8 ",
         paddingTop: "10px",
       }}
     >
@@ -108,6 +108,7 @@ function Chart() {
             justifyContent: "space-between",
             width: "inherit",
             borderRadius: "50px",
+            backgroundColor: "#f6f7f8",
           }}
         >
           <h3
@@ -128,7 +129,7 @@ function Chart() {
               style={{
                 display: "flex",
                 border: "0px solid white",
-                // marginRight: "20px",
+                marginRight: "50px",
                 // marginRight: "20px",
               }}
             >
@@ -192,9 +193,6 @@ function Chart() {
 
       <div>
         <p style={{ width: "14px", height: "14px", color: "red" }}></p>
-        <p>Systol</p>
-        <p>160</p>
-        <p>Higher than Average</p>
       </div>
     </div>
   );
