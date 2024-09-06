@@ -15,6 +15,7 @@ function Right() {
         marginBottom: "18px",
         borderRadius: "16px",
         outline: "2px solid white",
+        overflow: "hidden",
       }}
     >
       <div
